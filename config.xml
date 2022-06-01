@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.skysportsreplica.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>SkySportsReplica</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    
+    <access origin="http://foxsports.com/"/>
+    <access origin="http://www.foxsports.com/"/>
+    <access origin="https://www.foxsports.com/"/>
+    <access origin="https://foxsports.com/"/>
+
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon src="res/images/ldpi.png" density="ldpi" />
+        <icon src="res/images/mdpi.png" density="mdpi" />
+        <icon src="res/images/hdpi.png" density="hdpi" />
+        <icon src="res/images/xhdpi.png" density="xhdpi" />
+        <icon src="res/images/xxhdpi.png" density="xxhdpi" />
+        <icon src="res/images/xxxhdpi.png" density="xxxhdpi" />
+    </platform>
+
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>
